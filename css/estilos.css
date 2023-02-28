@@ -1,0 +1,40 @@
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 20px; /* Se aplicó 20px para que la barra de navegacion no tape el contenido */
+}
+
+h2{
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+li {
+    text-decoration: none;
+    font-size:medium
+}
+
+div {
+    border: solid;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#boton_inicio {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
