@@ -7,5 +7,7 @@ document.getElementById("fondo_d").addEventListener("click", function(){
     document.body.style.backgroundColor = "white";
 });
 document.getElementById("bot_subm").addEventListener("click", function(){
-    console.log ("Mensaje enviado el dia: "+Date());
+    if (document.getElementById("nombre") !== "" && document.getElementById("mail").value !== ""){
+        localStorage.horario = "Mensaje enviado el dia: "+Date();
+    }
 });
