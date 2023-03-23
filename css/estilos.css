@@ -1,40 +1,182 @@
-nav {
+#bloque_encabezado {
     position: sticky;
-    top: 0;
-    background-color: white;
+    top: 0px;
 }
 
-h1 {
-    font-family: 'Sofia Sans', sans-serif;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: darkgreen;
+}
+
+a {
+    color:white;
+}
+#caja_tabla_pers{
+    display: grid;
+    text-transform: uppercase;
+    align-items: center;
+    border-style: dashed;
+    justify-content: center;
+    margin-left: 30%;
+    width: 40%;
+    margin-bottom: 4%;
+}
+
+.cajas {
+    display: flex;
+    
+}
+
+.titulos {
+    font-family: 'Delicious Handrawn', cursive;
+    display: flex;
+    align-items: center;
     text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    padding-bottom: 20px; /* Se aplicó 20px para que la barra de navegacion no tape el contenido */
+    flex-direction: column;
 }
 
-h2{
+#inicial {
+        border-radius: 20%;
+        max-width: 12vw;
+        display: inline-block;
+        height:130px;
+        width:130px;
+}
+
+#logo_ld {
+    border-radius: 20%;
+    max-width: 12vw;   
+    display: inline-block;
+    margin-right: 1%;
+    height:70px;
+    width:70px;
+}
+
+#barra_nav {
+        display:flex;
+        background-color:darkslateblue;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 2px 2px 10px black;
+}
+
+#bot_pers, #bot_exp, #bot_hab {
+    padding-left: 2%;
+    padding-right: 2%;    
+    width:50px;
+    height:50px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.parrafos_exp {
     font-family: 'Sofia Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 250px;
 }
 
-li {
-    text-decoration: none;
-    font-size:medium
+#taller_box{
+    margin-left: 40%;
 }
 
-div {
-    border: solid;
-    width: 70%;
-    margin-left: 15%;
+.img_exp {
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    max-width: 20vw;
+}
+
+#img_exp_titulo {
+    margin-left: 39%;
+}
+
+#logo_bici{
+    width: 180px;
+    height: 60px;
+}
+
+.logo_als {
+    width: 80px;
+    height: 80px;
+}
+
+h2 {
+    font-family: 'Sofia Sans', sans-serif;
+    text-decoration: underline;
+}
+
+#cuadriculas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.img_estrella {
+    width: 30px;
+    height: 30px;
 }
 
 #boton_inicio {
     text-align: center;
 }
 
-footer {
-    text-align: center;
+#boton_pie {
+    display: flex;
+    justify-content: center;
 }
 
-ul {
-    list-style-type: none;
+#boton_inicio {
+    width: 70px;
+    height: 70px;
+}
+
+#pie {
+    background-color: darkgreen;
+    padding: 1%;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 30px;
+}
+#box_contacto {
+    max-width: 60%;
+    border-style: double;
+    box-shadow: 2px 2px 10px black;
+    padding-bottom: 1%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+ #formulario {
+    display: grid;
+
+ }
+ .casilla_contacto {
+    width: 300px;
+    height: 50px;
+    margin-top: 1%;
+ }
+
+ #casilla_msg {
+    max-width: 300px;
+    height: 450px;
+    margin-top: 1%;
+ }
+
+ #bot_subm {
+    margin-top: 1%;
+ }
+
+footer {
+    text-align: center;
 }
