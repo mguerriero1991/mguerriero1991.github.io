@@ -14,7 +14,7 @@ header {
 a {
     color:white;
 }
-#caja_tabla_pers{
+#caja_info_pers{
     display: grid;
     text-transform: uppercase;
     align-items: center;
@@ -27,7 +27,6 @@ a {
 
 .cajas {
     display: flex;
-    
 }
 
 .titulos {
@@ -38,7 +37,11 @@ a {
     flex-direction: column;
 }
 
-#inicial {
+#img_exp_titulo {
+    margin-left: 39%;
+}
+
+#inicio {
         border-radius: 20%;
         max-width: 12vw;
         display: inline-block;
@@ -62,13 +65,6 @@ a {
         align-items: center;
         justify-content: center;
         box-shadow: 2px 2px 10px black;
-}
-
-#bot_pers, #bot_exp, #bot_hab {
-    padding-left: 2%;
-    padding-right: 2%;    
-    width:50px;
-    height:50px;
 }
 
 .box {
@@ -96,10 +92,6 @@ a {
     width: 350px;
     height: 350px;
     max-width: 20vw;
-}
-
-#img_exp_titulo {
-    margin-left: 39%;
 }
 
 #logo_bici{
@@ -131,16 +123,13 @@ h2 {
 
 #boton_inicio {
     text-align: center;
+    width: 70px;
+    height: 70px;
 }
 
 #boton_pie {
     display: flex;
     justify-content: center;
-}
-
-#boton_inicio {
-    width: 70px;
-    height: 70px;
 }
 
 #pie {
